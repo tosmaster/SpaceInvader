@@ -1,0 +1,13 @@
+2020-03-10 00:27:47,490 : env: SpaceInvaders-v0
+2020-03-10 00:27:47,513 : env_config: config.json
+2020-03-10 00:27:47,514 : num_episodes: 1
+2020-03-10 00:27:47,514 : load_model_dir: trained_models/
+2020-03-10 00:27:47,514 : log_dir: logs/
+2020-03-10 00:27:47,514 : render: False
+2020-03-10 00:27:47,514 : render_freq: 1
+2020-03-10 00:27:47,514 : max_episode_length: 10000
+2020-03-10 00:27:47,515 : gpu_id: -1
+2020-03-10 00:27:47,515 : skip_rate: 4
+2020-03-10 00:27:47,515 : seed: 1
+2020-03-10 00:27:47,515 : new_gym_eval: tos
+2020-03-10 00:28:22,348 : Time 00h 00m 34s, episode reward 285.0, episode length 953, reward mean 285.0000

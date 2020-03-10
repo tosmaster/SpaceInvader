@@ -1,0 +1,21 @@
+2020-03-10 00:25:39,338 : lr: 0.0001
+2020-03-10 00:25:39,338 : gamma: 0.99
+2020-03-10 00:25:39,338 : tau: 1.0
+2020-03-10 00:25:39,338 : seed: 1
+2020-03-10 00:25:39,338 : workers: 1
+2020-03-10 00:25:39,338 : num_steps: 20
+2020-03-10 00:25:39,338 : max_episode_length: 10000
+2020-03-10 00:25:39,339 : env: SpaceInvaders-v0
+2020-03-10 00:25:39,339 : env_config: config.json
+2020-03-10 00:25:39,339 : shared_optimizer: True
+2020-03-10 00:25:39,339 : load: False
+2020-03-10 00:25:39,339 : save_max: True
+2020-03-10 00:25:39,339 : optimizer: Adam
+2020-03-10 00:25:39,339 : load_model_dir: trained_models/
+2020-03-10 00:25:39,339 : save_model_dir: trained_models/
+2020-03-10 00:25:39,339 : log_dir: logs/
+2020-03-10 00:25:39,339 : gpu_ids: [-1]
+2020-03-10 00:25:39,339 : amsgrad: True
+2020-03-10 00:25:39,339 : skip_rate: 4
+2020-03-10 00:26:10,004 : Time 00h 00m 29s, episode reward 175.0, episode length 894, reward mean 175.0000
+2020-03-10 00:26:51,630 : Time 00h 01m 11s, episode reward 285.0, episode length 970, reward mean 230.0000
