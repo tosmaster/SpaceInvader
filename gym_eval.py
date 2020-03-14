@@ -141,6 +141,10 @@ wandb.config.batch_size = 20
 wandb.config.learning_rate = 0.0001
 
 wandb.save(os.path.join(args.load_model_dir,'model.h5'))
+wandb.save("*.py")
+wandb.save("*.ipynb")
+wandb.save("config.json")
+
 
 player.model.eval()
 for i_episode in range(args.num_episodes):
