@@ -70,7 +70,7 @@ parser.add_argument(
     help='environment to crop and resize info (default: config.json)')
 parser.add_argument(
     '--shared-optimizer',
-    default=True,
+    default=False,
     metavar='SO',
     help='use an optimizer without shared statistics.')
 parser.add_argument(
