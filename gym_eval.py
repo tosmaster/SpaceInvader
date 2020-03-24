@@ -58,7 +58,7 @@ parser.add_argument(
     type=int,
     default=10000,
     metavar='M',
-    help='maximum length of an episode (default: 100000)')
+    help='maximum length of an episode (default: 10000)')
 parser.add_argument(
     '--gpu-id',
     type=int,
@@ -141,8 +141,6 @@ wandb.config.batch_size = 20
 wandb.config.learning_rate = 0.0001
 
 wandb.save(os.path.join(args.load_model_dir,'model.h5'))
-wandb.save("*.py")
-wandb.save("*.ipynb")
 wandb.save("config.json")
 
 

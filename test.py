@@ -76,8 +76,8 @@ def test(args, shared_model, env_conf):
                                   time.gmtime(time.time() - start_time)),
                     reward_sum, player.eps_len, reward_mean))
 
-            if args.save_max and reward_sum >= max_score:
-                max_score = reward_sum
+            if args.save_max and reward_mean >= max_score+100:
+                max_score = reward_mean
                 if gpu_id >= 0:
                     with torch.cuda.device(gpu_id):
                         state_to_save = player.model.state_dict()
